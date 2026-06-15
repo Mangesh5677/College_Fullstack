@@ -9,15 +9,18 @@
     <script>
     var color = "blue ";
     function changeColor(){
-        if(color==="blue"){
-         color="red";
-        }else{
-            color="blue";
-        }
+          var anotherColor = "red";
+    function swapColors(){
+        var tempColor = anotherColor;
+        anotherColor = color;
+        color = tempColor;
     }
+    swapColors();
+    }
+    
     changeColor();
     console.log("Value of color is "+color);
-
+ 
     </script>
 </body>
 </html>
