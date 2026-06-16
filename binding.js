@@ -5,7 +5,7 @@ export function sum(num1, num2){
     return num1 + num2;
 }
 
-export class Rectangle(){
+export class Rectangle{
     constructor(length, breadth){
         this.length = length;
         this.breadth = breadth;
