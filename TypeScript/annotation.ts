@@ -1,4 +1,3 @@
 let name : string;
-name="Herry";
-name="John";
-console.log(name);
+let heightInCentimeters : number;
+let isActive : boolean;
