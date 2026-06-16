@@ -1,4 +1,4 @@
-export var color = "red";
+export var color = "orange";
 export let name = "John";
 export const magicNumber = 45;
 
