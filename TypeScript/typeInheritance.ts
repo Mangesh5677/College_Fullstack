@@ -8,7 +8,7 @@ const PoetLater:typeof Poet = {
     born: 2001,
 };
 
-const PoetLate:typeof Poet = {
-    name: "John Doe",
-    born: 2001,
+const YetAnotherPoet:typeof Poet = {
+    name: "Shreeman",
+    born: 2010,
 };
