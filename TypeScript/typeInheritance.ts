@@ -7,3 +7,8 @@ const PoetLater:typeof Poet = {
     name: "John Doe",
     born: 2001,
 };
+
+const PoetLate:typeof Poet = {
+    name: "John Doe",
+    born: 2001,
+};
