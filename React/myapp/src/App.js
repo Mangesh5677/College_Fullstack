@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return 
+  return (
     <div>
      Placeholder For App
-    </div>;
+    </div>
+  );
   
 }
-
+export default App;
 
