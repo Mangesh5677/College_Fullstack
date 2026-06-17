@@ -11,6 +11,12 @@ const YetAnotherPoet:typeof Poet = {
     name: "Shreeman",
     born: 2010,
 }; */
+
+//Interface - custom type shape:
+/* interface Poet {
+    name: string;
+    born: number;
+} */
 type Poet = {
     name: string;
     born: number;
