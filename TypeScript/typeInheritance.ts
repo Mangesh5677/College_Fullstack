@@ -30,3 +30,8 @@ const YetAnotherPoet:Poet = {
     name: "Shreeman",
     born: 2010,
 };
+
+type x = string | number;
+let firstName: x;
+firstName = "John";
+firstName = 500;
