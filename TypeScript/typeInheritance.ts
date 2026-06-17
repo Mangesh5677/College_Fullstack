@@ -2,3 +2,8 @@ const Poet = {
     name: "William Shakespeare",
     born: 2000
 };
+
+const PoetLater:typeof Poet = {
+    name: "John Doe",
+    born: 2001
+};
