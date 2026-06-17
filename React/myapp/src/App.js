@@ -2,11 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-     Helloooo
-    </div>
-  );
+  return 
+    <div>
+     Placeholder For App
+    </div>;
+  
 }
 
-export default App;
+
