@@ -35,3 +35,5 @@ type x = string | number;
 let firstName: x;
 firstName = "John";
 firstName = 500;
+
+
