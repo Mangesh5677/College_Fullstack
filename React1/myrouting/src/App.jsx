@@ -5,9 +5,7 @@ function App() {
   
 
   return (
-    <>
-     
-    </>
+    <div>placeholder for app component </div>
   )
 }
 
