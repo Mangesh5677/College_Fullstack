@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { products } from "./products";
 export function ProductList(){
     return(
@@ -5,8 +6,11 @@ export function ProductList(){
             <h2>Here are some great tools for react</h2>
             <ul>
                 {products.map((product)=>(
-                    <li>{product.name}</li>
+                    <Link to={`${product.id}`}>
+                    <li key={product.id}>{product.name}</li>
+                     </Link>
                 ))}
+               
             </ul>
         </div>
     );
