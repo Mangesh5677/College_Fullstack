@@ -15,7 +15,7 @@ const myRouterTree = createBrowserRouter([
     element: <ProductList />,
   },
   {
-    path:"products/:id/:taskId",
+    path:"products/:id",
     element:<ProductsList />,
 
   },
