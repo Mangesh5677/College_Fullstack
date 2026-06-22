@@ -9,7 +9,6 @@ public class sum_of_n {
         for(int i=1;i<=n;i++){
             sum +=i;
         }
-        System.out.print("Sum of "+n+":");
-        System.out.println(sum);
+        System.out.print("Sum of 1 to "+n+" : "+sum);
     }
 }
