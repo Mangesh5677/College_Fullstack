@@ -20,5 +20,7 @@ public class Main {
 //find last digit of the number
 //find largest digit in number
 //check a digit exist or not
+//calculate avg of n number
+
 
 
