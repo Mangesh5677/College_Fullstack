@@ -5,7 +5,6 @@ public class GFDdemo {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
-
         System.out.println("Factors of " + n + " are:");
 
         for (int i = 1; i <= n; i++) {
